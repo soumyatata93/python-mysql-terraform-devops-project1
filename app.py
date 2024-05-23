@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template, request
 import pymysql
-
+import json
 
 # Load configuration from file
 with open('app_config.json', 'r') as config_file:
